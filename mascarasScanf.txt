@@ -1,0 +1,20 @@
+c - Caractere - Quando usado com funções printf, especifica um caractere de byte único; quando usado com funções wprintf, especifica um caractere largo.
+C - Caractere - Quando usado com funções printf, especifica um caractere largo; quando usado com funções wprintf, especifica um caractere de byte único.
+d - Integer - Inteiro decimal assinado.
+i - Integer - Inteiro decimal assinado.
+o - Integer - inteiro octal não assinado.
+u - Integer - Inteiro decimal sem sinal.
+x - Integer - Inteiro hexadecimal não assinado; usa " abcdef ".
+X - Integer - Inteiro hexadecimal não assinado; usa " ABCDEF ".
+e - Ponto flutuante - Um valor assinado que tem a forma [-] d.dddd e ± dd [ d ], em que d é um dígito decimal, dddd é um ou mais dígitos decimais, dependendo da precisão especificada, ou seis por padrão, e dd [ d ] é de dois ou três dígitos decimais, dependendo do formato de saída e do tamanho do expoente.
+E - Ponto flutuante - Idêntico ao e formato, exceto que E , em vez de e introduzir o expoente.
+f - Ponto flutuante - Valor assinado que tem a forma [-] dddd . dddd , em que dddd é um ou mais dígitos decimais. O número de dígitos antes do ponto decimal depende da magnitude do número e o número de dígitos após o ponto decimal depende da precisão solicitada ou é seis, por padrão.
+F - Ponto flutuante - Idêntico ao f formato, exceto que a saída de Infinity e Nan está em letras maiúsculas.
+g - Ponto flutuante - Os valores assinados são exibidos no f e formato ou, o que for mais compacto para o valor e a precisão especificados. O e formato é usado somente quando o expoente do valor é menor que-4 ou maior ou igual ao argumento de precisão . Zeros à esquerda são truncados, e o ponto decimal é exibido somente se um ou mais dígitos vierem na sequência.
+G - Ponto flutuante - Idêntico ao g formato, exceto que E , em vez de e , apresenta o expoente (quando apropriado).
+a - Ponto flutuante - Valor de ponto flutuante de precisão dupla hexadecimal assinado que tem a forma [-] 0xh. HHHHp ± dd , em que h. HHHH são os dígitos hexadecimais (usando letras minúsculas) do mantissa e dd são um ou mais dígitos para o expoente. A precisão especifica o número de dígitos após a vírgula.
+A - Ponto flutuante - Valor de ponto flutuante de precisão dupla hexadecimal assinado que tem a forma [-] 0Xh. HHHHP ± dd , em que h. HHHH são os dígitos hexadecimais (usando letras maiúsculas) do mantissa e DD são um ou mais dígitos para o expoente. A precisão especifica o número de dígitos após a vírgula.
+n - Ponteiro para o inteiro - Número de caracteres gravados com êxito até o momento no fluxo ou no buffer. Esse valor é armazenado no inteiro cujo endereço é fornecido como o argumento. O tamanho do número inteiro apontado pode ser controlado por um prefixo de especificação de tamanho de argumento. O n especificador é desabilitado por padrão; para obter informações, consulte a observação de segurança importante.
+p - Tipo ponteiro - Exiba o argumento como um endereço em dígitos hexadecimais.
+s - String  - Quando usado com funções printf, especifica uma cadeia de caracteres de byte único ou uma cadeia de caracteres de bytes múltiplos; quando usado com funções wprintf, especifica uma cadeia de caracteres largos. Os caracteres são exibidos até o primeiro caractere nulo ou até que o valor de precisão seja atingido.
+S - String  - Quando usado com funções printf, especifica uma cadeia de caracteres largos; quando usado com funções wprintf, especifica uma cadeia de caracteres de byte único ou uma cadeia de caracteres de bytes múltiplos. Os caracteres são exibidos até o primeiro caractere nulo ou até que o valor de precisão seja atingido.
